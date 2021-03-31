@@ -9,4 +9,4 @@ install:
   - sudo apt install ansible
 # command to run tests
 script:
-  - ansible-playbook -i hosts install/elk.yml
+#  - ansible-playbook -i hosts install/elk.yml

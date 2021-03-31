@@ -7,3 +7,4 @@ install:
   - pip install -r tests/test-requirements.txt
   - sudo apt update
   - sudo apt install ansible
+script: pytest

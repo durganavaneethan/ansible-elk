@@ -5,6 +5,7 @@ python:
 # command to install dependencies
 install:
   - pip install -r tests/test-requirements.txt
+  - python -m pip install --user ansible
 # command to run tests
 script:
   - ansible-playbook -i hosts install/elk.yml
